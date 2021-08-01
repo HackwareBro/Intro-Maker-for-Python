@@ -6,6 +6,10 @@ from time import sleep
 
 colorama.init()
 
+# ColorName
+
+colors = ['BLACK', 'RED', 'GREEN', 'YELLOW', 'BLUE', 'MAGENTA', 'CYAN', 'WHITE']
+
 #Color changing Title
 def blinking(title, cycle=5,color_shade = [Fore.CYAN,Fore.BLUE,Fore.MAGENTA]):   
     for color in range(len(color_shade)*cycle):
