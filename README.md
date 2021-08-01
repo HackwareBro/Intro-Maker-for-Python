@@ -6,7 +6,7 @@ I will update this program time to time!
 ## Installation
 
 Install required modules for this python program by typing:
-`pip3 install requirements.txt`
+`pip3 install -r requirements.txt`
 
 ## Usage
 
