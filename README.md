@@ -9,6 +9,7 @@ Install required modules for this python program by typing:
 `pip3 install -r requirements.txt`
 
 ## Usage
+![intro](https://user-images.githubusercontent.com/85396426/128628092-b3fd30b9-86be-4649-b644-63533c31a5d3.gif)
 
 Just import this module in any of your program
 
@@ -24,11 +25,16 @@ to use different colors in your program
 
 and you can use anytype of intro design by calling its method, just like the below 
 
-`Intro.blinking('Hackware Bro',cycle=5, color_shade=[Fore.RED,Fore.WHITE,Fore.MAGENTA])`
+`Intro.blinking('Hackware Bro',cycle=5, color_shade=[Fore.RED,Fore.WHITE,Fore.MAGENTA], 'doom')`
 
-If you forget the name of the colors then just simply type `print(Intro.colors)` to print the list of colors and then you can use these colors just like `Fore.RED` or `Back.BLUE`. 
-
+If you forget the names of the colors then just simply type `print(Intro.COLORS)` to print the list of color names and then you can use these colors just like `Fore.RED` or `Back.BLUE`. 
 '*Fore*' for text color and '*Back*' for background color
+
+If you forget the names of the fonts then just simply type `print(Intro.FONTS)` to print the list of font names and then you can use these fonts as an argument for the `blinking(font='<fontname>')`
+
+You can also check the fonts' visualization by directly going to figlet website: http://www.figlet.org/examples.html
+
+
 
 ## Contributing
 
